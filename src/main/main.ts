@@ -1,7 +1,9 @@
 /**
  * location url相关工具函数
  */
-
+export function random(min:number,max:number):number {
+    return Math.floor(Math.random() * (max-min+1)) + min
+}
 /**
  * 根据key获取浏览器url参数
  * @param name 参数key
