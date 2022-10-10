@@ -1,7 +1,7 @@
 
 
 /**
- * 统一导出所有函数
+ * 统一导出所有函数1
  */
  export * from './main/main'
  export * from './main/date/date'
