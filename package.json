@@ -28,9 +28,9 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "tslib": "^2.4.0"
   },
-  "main": "dist/dip-utils.cjs.js",
-  "module": "dist/dip-utils.esm.js",
-  "browser": "dist/dip-utils.umd.js",
+  "main": "dist/tools-utils.cjs.js",
+  "module": "dist/tools-utils.esm.js",
+  "browser": "dist/tools-utils.umd.js",
   "types": "src/index.d.ts",
   "files": [
     "src",
