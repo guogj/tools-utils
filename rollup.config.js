@@ -6,17 +6,17 @@ export default {
     {
       format: 'cjs', // 打包为commonjs格式
       file: 'dist/tools-utils.cjs.js', // 打包后的文件路径名称
-      name: 'dutils' // 打包后的默认导出文件名称
+      name: 'tools-utils' // 打包后的默认导出文件名称
     },
     {
       format: 'esm', // 打包为esm格式
       file: 'dist/tools-utils.esm.js',
-      name: 'dutils'
+      name: 'tools-utils'
     },
     {
       format: 'umd', // 打包为umd通用格式
       file: 'dist/tools-utils.umd.js',
-      name: 'dutils',
+      name: 'tools-utils',
       minifyInternalExports: true
     }
   ],
